@@ -11,7 +11,7 @@ desired_cap = {
     'version': "31",
 }
 driver = webdriver.Remote(
-   command_executor='http://philg:45753ef0-4aac-44a3-82e7-b3ac81af8bca@ondemand.saucelabs.com:80/wd/hub',
+   command_executor='http://YOUR_SAUCE_USERNAME:YOUR_SAUCE_ACCESS_KEY@ondemand.saucelabs.com:80/wd/hub',
    desired_capabilities=desired_cap)
  
 # This is your test logic. You can add multiple tests here.
