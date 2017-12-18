@@ -15,7 +15,6 @@ driver = webdriver.Remote(
    desired_capabilities=desired_cap)
  
 # This is your test logic. You can add multiple tests here.
-driver.implicitly_wait(10)
 driver.get("http://www.google.com")
 if not "Google" in driver.title:
     raise Exception("Unable to load google page!")
