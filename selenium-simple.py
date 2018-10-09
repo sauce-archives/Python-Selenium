@@ -1,3 +1,4 @@
+""" Simple Selenium tests """
 import os
 
 from selenium import webdriver
