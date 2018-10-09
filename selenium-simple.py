@@ -1,6 +1,10 @@
 """ Simple Selenium tests """
 import os
 
+# Selenium 3.14+ doesn't enable certificate checking
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
