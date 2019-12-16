@@ -1,3 +1,5 @@
+## *NOTE*: This repository is no longer maintained by Sauce Labs.
+
 # Python-Selenium
 Selenium scripts in Python used in the Sauce Labs DOCS wiki
 
